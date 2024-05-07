@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: "hypershift-beta"
+
+---
+
+apiVersion: crossplane.stakater.io/v1
+kind: HyperShiftHostedCluster
+metadata:
+  name: "beta"
+  namespace: "hypershift-beta"
+spec:
+  # Additional configuration using templated values
