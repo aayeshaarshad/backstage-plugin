@@ -27,7 +27,7 @@ spec:
     platform:
       kubevirt:
         compute:
-          cores: 56
+          cores: 8
           memory: 32Gi
         rootVolume:
           persistent:
